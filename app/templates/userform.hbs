@@ -1,0 +1,87 @@
+<div id="userform">
+     <form action="" class="register">
+            <h1>Registration</h1>
+            <fieldset class="row1">
+                <legend>User Details
+                </legend>
+                <p>
+                   <label  for="firstName">First Name * </label>
+                       {{input value=model.firstName type="text"  id="user_firstName"
+                         placeholder="Enter First Name"}}
+                      {{#if showError}}
+                          <span class="text-danger">{{model.errors.firstName}}</span>
+                      {{/if}}
+                </p>
+                <p>
+                   <label  for="lastName">Last Name * </label>
+                        {{input value=model.lastName type="text"  id="user_lastName"
+                            placeholder="Enter Last Name"}}
+                         {{#if showError}}
+                             <span class="text-danger">{{model.errors.lastName}}</span>
+                         {{/if}}
+                </p>
+                <p>
+                <label  for="Address">Address * </label>
+
+                {{textarea value=name cols="18" rows="4" value=model.Address}}
+                </p>
+                <p>
+
+                   <label  for="email">Email *</label>
+                      {{input value=model.email type="text"  id="user_email"
+                         placeholder="Enter Email"}}
+                      {{#if showError}}
+                          <span class="text-danger">{{model.errors.email}}</span>
+                      {{/if}}
+                </p>
+                <p>
+                   <label  for="Phone">Phone * </label>
+                              {{input value=model.Phone type="text"  }}
+
+                </p>
+
+                <p>
+                     <label  for="Phone">City * </label>
+                                                  {{input value=model.City type="text"  }}
+
+                </p>
+                <p>
+                    <label>State
+                    </label>
+                    <select>
+                        <option>
+                        </option>
+                        <option value="Telangana">Telangana
+                        </option>
+                        <option value="Karnataka">Karnataka
+                                                </option>
+                    </select>
+                </p>
+                <p>
+                    <label>Country *
+                    </label>
+                    <select>
+                        <option>
+                        </option>
+                        <option value="1">India
+                        </option>
+                    </select>
+                </p>
+                <p>
+                    <label  for="Zip" >zip</label>
+                      {{input value=model.Zip type="text"  }}
+
+                </p>
+            <button class="button"type="submit"  {{action "save"}}>
+                                 Register
+            </button>
+             <!--button class="button" type="reset" {{action "cancel"}}>
+                    Cancel
+              </button-->
+          </fieldset>
+
+
+        </form>
+
+</div>
+{{outlet}}

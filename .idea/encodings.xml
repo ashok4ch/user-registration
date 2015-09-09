@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/adapters/application.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/application.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/get-all-users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/get-user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/userform.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/get-all-users.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/get-user.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/routes/userform.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/app.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/get-all-users.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/get-user.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/index.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/user-edit.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/userform.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bower.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config/environment.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dist/assets/user-registration.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dist/assets/vendor.css" charset="UTF-8" />
+  </component>
+</project>
